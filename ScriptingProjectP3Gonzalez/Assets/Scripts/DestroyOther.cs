@@ -9,7 +9,7 @@ public class DestroyOther : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.W))
         {
             Destroy(other);
         }
